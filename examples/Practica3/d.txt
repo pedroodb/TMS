@@ -1,0 +1,45 @@
+//-------CONFIGURATION
+name: 1d
+init: q0
+accept: qAcc
+
+//-------DELTA FUNCTION:
+q0,0
+qEnd,_,r
+
+// qEnd me lleva al final de la entrada
+qEnd,0
+qEnd,0,r
+
+qEnd,1
+qEnd,1,r
+
+qEnd,_
+q2,_,l
+
+// q2 y q3 borran los ultimos dos 1s de la entrada
+
+q2,1
+q3,_,l
+
+q3,1
+qIni,_,l
+
+// qIni me lleva al comienzo de la entrada
+
+qIni,1
+qIni,1,l
+
+qIni,0
+qIni,0,l
+
+qIni,_
+qCheck,_,r
+
+// qCheck chequea si termine de procesar una entrada correcta
+
+qCheck,_
+qAcc,_,-
+
+qCheck,0
+q0,0,-

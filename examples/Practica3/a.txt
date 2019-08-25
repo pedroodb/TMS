@@ -1,0 +1,8 @@
+//-------CONFIGURATION
+name: 1a
+init: q0
+accept: q0
+
+//-------DELTA FUNCTION:
+q0,_
+q0,1,-
