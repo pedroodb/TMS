@@ -2,7 +2,7 @@
 
 Simplified version of Martin Ugarte (Just to be sure that it will always live).
 
-[Live version](https://diegoauyon.github.io/TMS/index.html)
+[Live version](https://pedroodb.github.io/TMS)
 
 
 ## Syntax
