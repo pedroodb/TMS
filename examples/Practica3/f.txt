@@ -1,5 +1,5 @@
 //-------CONFIGURATION
-name: 1e
+name: 1f
 init: q0
 accept: qAcc
 
@@ -11,19 +11,19 @@ q0,a,_
 qa,a,_,-,-
 
 qa,a,_
-qa,a,a,r,r
+qa,a,X,r,r
 
 qa,b,_
-qb,b,_,-,l
+qb,b,_,-,-
 
-qb,b,a
-qb,b,b,r,l
+qb,b,_
+qb,b,X,r,r
 
 qb,c,_
-qc,c,_,-,r
+qc,c,_,-,l
 
-qc,c,b
-qc,c,c,r,r
+qc,c,X
+qc,c,X,r,l
 
 qc,_,_
 qAcc,_,_,-,-
