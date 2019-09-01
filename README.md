@@ -1,8 +1,10 @@
 # TMS
 
-Simplified version of Martin Ugarte (Just to be sure that it will always live).
+Fork de https://github.com/diegoauyon/TMS agregandole ejemplos para la materia Computabilidad y Complejidad de la Facultad de Informatica, UNLP.
 
-[Live version](https://diegoauyon.github.io/TMS/index.html)
+[Live version](https://pedroodb.github.io/TMS)
+
+En la carpeta examples/Practica3 pueden encontrar algunos ejemplos de la practica.
 
 
 ## Syntax
