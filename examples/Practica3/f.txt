@@ -1,29 +1,7 @@
 //-------CONFIGURATION
 name: 1f
-init: q0
+init: qa
 accept: qAcc
 
 //-------DELTA FUNCTION:
 
-// q0 chequea que el input comience con 'a'
-
-q0,a,_
-qa,a,_,-,-
-
-qa,a,_
-qa,a,X,r,r
-
-qa,b,_
-qb,b,_,-,-
-
-qb,b,_
-qb,b,X,r,r
-
-qb,c,_
-qc,c,_,-,l
-
-qc,c,X
-qc,c,X,r,l
-
-qc,_,_
-qAcc,_,_,-,-
