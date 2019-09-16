@@ -1,7 +1,0 @@
-//-------CONFIGURATION
-name: 1f
-init: qa
-accept: qAcc
-
-//-------DELTA FUNCTION:
-
