@@ -1,9 +1,13 @@
 //-------CONFIGURATION
 name: 1d
 init: q0
-accept: qAcc
+accept: qA
 
 //-------DELTA FUNCTION:
+
+q0,_
+qA,_,-
+
 q0,0
 qEnd,_,r
 
@@ -39,7 +43,7 @@ qCheck,_,r
 // qCheck chequea si termine de procesar una entrada correcta
 
 qCheck,_
-qAcc,_,-
+qA,_,-
 
 qCheck,0
 q0,0,-
