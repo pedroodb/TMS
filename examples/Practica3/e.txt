@@ -1,11 +1,11 @@
 //-------CONFIGURATION
 name: 1e
-init: qa
-accept: qAcc
+init: q0
+accept: qa
 
 //-------DELTA FUNCTION:
 
-qa,a
+q0,a
 qs,A,r
 
 qs,a
@@ -51,10 +51,10 @@ qRes,a
 qRes,a,l
 
 qRes,A
-qa,A,r
+q0,A,r
 
 qCh,_
-qAcc,_,-
+qa,_,-
 
-qa,_
-qAcc,_,-
+q0,_
+qa,_,-
